@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-restricted-syntax": [
+          "error",
+          "LabeledStatement",
+          "WithStatement"
+        ],    
+        "no-unused-vars": 0,
+        "no-multiple-empty-lines": "warn",
+        "no-console": "off",
+        "import/extensions" : [0, {"js": "always"}]  
+      }
+}
+
